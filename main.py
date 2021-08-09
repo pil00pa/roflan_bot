@@ -47,4 +47,5 @@ def humor(message):
 
 bot.set_my_commands([types.BotCommand("/start", "старт"), types.BotCommand("/roflan", "зарофлить")])
 
-bot.polling(none_stop=True)
+if __name__ == "__main__":
+    bot.polling(none_stop=True)
